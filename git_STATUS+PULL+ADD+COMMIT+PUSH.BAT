@@ -6,7 +6,7 @@ REM  SCOPO     : allineare il repository locale con GitHub in un colpo solo
 REM              (salva le modifiche locali, scarica quelle dell'altro PC,
 REM               invia tutto su GitHub) scrivendo un LOG passo passo.
 REM  REPOSITORY: la cartella di questo bat
-REM              (c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\)
+REM              (c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF13\)
 REM              il bat si posiziona da solo: basta il doppio clic.
 REM  LOG       : git_LOG.txt  (aggiunto in coda ad ogni esecuzione,
 REM              resta solo sul PC: e' escluso nel .gitignore)
