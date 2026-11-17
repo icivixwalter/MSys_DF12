@@ -45,3 +45,83 @@
 [08/11/2026 21:57:10] 06.01 - ANNO_S = [2026]
 [08/11/2026 21:57:10] 06.02 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12
 [08/11/2026 21:57:10] 06.02 - Eseguo Zip_N70_DECODIFICA.bat
+[08/11/2026 21:57:21] 07.00 - SALVATAGGIO 7ZIP
+[08/11/2026 21:57:21] 07.01 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12
+[08/11/2026 21:57:21] 07.01 - PATH_DEST_S = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI
+[08/11/2026 21:57:21] 07.01 - TODAY = 2026_11_08
+[08/11/2026 21:57:21] 07.01 - FILE_S = ZIP_SALVATAGGI_Msys_DF12
+[08/11/2026 21:57:21] 07.01 - Lista file Zip_N70_ElencoFile.txt trovata OK
+[08/11/2026 21:57:21] 07.01 - OUT_ZIP = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF12
+[08/11/2026 21:57:21] 07.02 - Eseguo: 7z u -tzip -r \"c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF12\" @Zip_N70_ElencoFile.txt
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Open archive: c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF12.zip
+--
+Path = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF12.zip
+Type = zip
+Physical Size = 85444
+
+Scanning the drive:
+
+WARNING: Percorso specificato non valido.
+\\ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva\
+
+
+WARNING: Percorso specificato non valido.
+\\questo Š il secondo esempio con path e file liberi senza .\
+
+
+WARNING: Percorso specificato non valido.
+\\............................................................................\
+
+1 folder, 31 files, 775484 bytes (758 KiB)
+
+Updating archive: c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF12.zip
+
+Keep old data in archive: 1 folder, 29 files, 752910 bytes (736 KiB)
+Add new data to archive: 4 files, 39854 bytes (39 KiB)
+
+
+WARNING: Impossibile accedere al file. Il file Š utilizzato da un altro processo.
+ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT
+
+
+Files read from disk: 3
+Archive size: 87872 bytes (86 KiB)
+
+Scan WARNINGS for files and folders:
+
+\\ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva\ : Percorso specificato non valido.
+\\questo Š il secondo esempio con path e file liberi senza .\ : Percorso specificato non valido.
+\\............................................................................\ : Percorso specificato non valido.
+----------------
+Scan WARNINGS: 3
+
+WARNINGS for files:
+
+ZIP_7ZIP_INCREMENTALE_FILE_LOG.TXT : Impossibile accedere al file. Il file Š utilizzato da un altro processo.
+----------------
+WARNING: Cannot open 1 file
+[08/11/2026 21:57:21] 07.02 - 7-Zip OK con WARNING noto (ERRORLEVEL=1) - righe // nella lista
+[08/11/2026 21:57:21] 07.02 - I file sono stati archiviati correttamente, procedo
+[08/11/2026 21:57:21] 07.03 - Contenuto c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI dopo 7z:
+ Il volume nell'unit… C non ha etichetta.
+ Numero di serie del volume: 8A04-483D
+
+ Directory di c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI
+
+08/11/2026  21:57    <DIR>          .
+08/11/2026  21:57    <DIR>          ..
+08/11/2026  21:57            87.872 2026_11_08_ZIP_SALVATAGGI_Msys_DF12.zip
+08/11/2026  21:14             3.711 2026_11_08_ZIP_SALVATAGGI_Msys_DF12_LISTA.TXT
+               2 File         91.583 byte
+               2 Directory  480.473.395.200 byte disponibili
+[08/11/2026 21:57:21] 07.04 - Esporto lista contenuto archivio (con .zip esplicito)
+[08/11/2026 21:57:21] 07.04 - 7z l OK (ERRORLEVEL=0)
+[08/11/2026 21:57:21] 07.04 - Lista esportata in c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12\AA_SALVATAGGI\2026_11_08_ZIP_SALVATAGGI_Msys_DF12_LISTA.TXT
+[08/11/2026 21:57:23] 08.00 - CHIAMO CRIPTA
+[08/11/2026 21:57:23] 08.01 - CWD = c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF12
+[08/11/2026 21:57:23] 08.01 - Eseguo Zip_N70_CRIPTA.bat
+[08/11/2026 21:57:30] 09.00 - SOSPENSIONE ED USCITA
+[08/11/2026 21:57:30] ==================== FINE BAT ====================
